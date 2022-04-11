@@ -279,6 +279,7 @@ int main() {
     enemy->setPosX(startX);
     enemy->setPosY(startY);
 
+
     // render
     renderHUD(*hero);
     renderGame(map, *hero, *enemy);
