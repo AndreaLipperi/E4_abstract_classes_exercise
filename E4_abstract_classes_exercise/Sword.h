@@ -17,7 +17,7 @@ public:
         }
         return result;
     }
-
+    virtual Sword* clone() const;
 
     bool isValirian() const {
         return valirian;

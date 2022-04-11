@@ -16,6 +16,7 @@ public:
     // override move: if dexterity > 10 allow +1 movement
     virtual void move(int x, int y) override;
 
+
     // override base class method
     virtual char getCharacterSymbol() const override {
         return 'K';

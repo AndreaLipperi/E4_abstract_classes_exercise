@@ -18,7 +18,7 @@ public:
     virtual char getCharacterSymbol() const {
         return 'C';
     }
-
+    virtual GameCharacter* clone() const = 0;
 
     int virtual fight(GameCharacter &enemy)=0;
     bool isLegalFight(const GameCharacter &enemy) const;

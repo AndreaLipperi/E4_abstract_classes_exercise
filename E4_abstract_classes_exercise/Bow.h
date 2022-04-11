@@ -19,6 +19,8 @@ public:
         return result;
     }
 
+    virtual Bow* clone() const;
+
     int getArrows() const {
         return arrows;
     }

@@ -5,6 +5,8 @@ Sword::Sword(int s, bool m, bool v) : Weapon(s, m), valirian(v) {
     // or just keep it empty, as it makes more sense
 }
 
-
+Sword* Sword::clone() const {
+    return new Sword(*this);
+}
 // Call basicUse() and if valirian double the damage
 

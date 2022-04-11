@@ -12,6 +12,7 @@ public:
     void move(int x, int y) override;
     int fight(GameCharacter &enemy) override;
 
+
     virtual char getCharacterSymbol() const override {
         return 'M';
     }

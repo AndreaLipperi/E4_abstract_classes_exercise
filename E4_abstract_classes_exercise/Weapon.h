@@ -10,6 +10,7 @@ public:
 
     int virtual use() = 0;
 
+    virtual Weapon* clone() const = 0;
 
 
     void setStrength(int s) {
